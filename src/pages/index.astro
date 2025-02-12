@@ -8,15 +8,16 @@ const sevenDaysAgo = new Date();
 sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
 
 const feedSources = [
-  "https://www.smashingmagazine.com/feed/",
-  "https://developer.mozilla.org/en-US/blog/rss.xml",
-  "https://www.thecodedmessage.com/index.xml",
-  "https://blog.rust-lang.org/feed.xml",
-  "https://blog.rust-lang.org/inside-rust/feed.xml",
-  "https://martinfowler.com/feed.atom",
-  "http://www.tbray.org/ongoing/ongoing.atom",
   "http://publicobject.com/publicobject/atom.xml",
   "http://syndication.thedailywtf.com/TheDailyWtf",
+  "http://www.tbray.org/ongoing/ongoing.atom",
+  "https://blog.python.org/feeds/posts/default?alt=rss",
+  "https://blog.rust-lang.org/feed.xml",
+  "https://blog.rust-lang.org/inside-rust/feed.xml",
+  "https://developer.mozilla.org/en-US/blog/rss.xml",
+  "https://martinfowler.com/feed.atom",
+  "https://www.smashingmagazine.com/feed/",
+  "https://www.thecodedmessage.com/index.xml",
 ];
 
 interface FeedItem {
